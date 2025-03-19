@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "name": "ivan-berger/server-timezone",
+  "description": "Get server time based on IP timezone",
+  "require": {
+    "php": "^8.4",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "IvanBerger\\ServerTimeZone\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IvanBerger\\ServerTimeZone\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^3.7",
+    "pestphp/pest-plugin": "^3.0",
+    "mockery/mockery": "^1.6"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
